@@ -27,11 +27,34 @@ Built the back end for an e-commerce site by modifying starter code. Configured 
 
 ## Installation
 
-N/A
+You must first clone this repo. Once the repo is downloaded, open it in VS Code. <br />
+Install Node.js modules, including the Sequelize, Express, dotenv and MySQL2 dependencies, using the terminal command:
+```console
+npm i
+```
+Log in to your MySQL.
+```console
+mysql -u USER -p
+PASSWORD
+```
+Create the database.
+```console
+source db/schema.sql
+exit
+```
+Seed the database.
+```console
+npm run seed
+```
+Run the application using the terminal command:
+```console
+node server.js
+```
 
 ## Usage
 
-
+With the database created and seeded and the server running, you may use Insomnia to test the GET, POST, PUT, and DELETE routes. <br />
+[Link to demonstration video]()
 
 ## Contributing
 
@@ -46,7 +69,8 @@ External Sources: <br />
 - [Express.js](https://www.npmjs.com/package/express) <br />
 - [MySQL2](https://www.npmjs.com/package/mysql2) <br />
 - [Sequelize](https://www.npmjs.com/package/sequelize) <br />
-- [dotenv](https://www.npmjs.com/package/dotenv)
+- [dotenv](https://www.npmjs.com/package/dotenv) <br />
+- [Insomnia](https://insomnia.rest/)
 
 ## Tests
 
