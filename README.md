@@ -23,7 +23,7 @@
 
 ## Description
 
-Built the back end for an e-commerce site by modifying starter code. YConfigured a working Express.js API to use Sequelize to interact with a MySQL database.
+Built the back end for an e-commerce site by modifying starter code. Configured a working Express.js API to use Sequelize to interact with a MySQL database.
 
 ## Installation
 
