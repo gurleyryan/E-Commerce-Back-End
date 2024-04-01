@@ -28,6 +28,7 @@ Built the back end for an e-commerce site by modifying starter code. Configured 
 ## Installation
 
 You must first clone this repo. Once the repo is downloaded, open it in VS Code. <br />
+Rename the .envEXAMPLE environment variables file to .env and store your MySQL username and password within. <br />
 Install Node.js modules, including the Sequelize, Express, dotenv and MySQL2 dependencies, using the terminal command:
 ```console
 npm i
