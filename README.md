@@ -55,7 +55,7 @@ node server.js
 ## Usage
 
 With the database created and seeded and the server running, you may use Insomnia to test the GET, POST, PUT, and DELETE routes. <br />
-[Link to demonstration video]()
+[Link to demonstration video](https://drive.google.com/file/d/12k4XeLdGvqkqGOWoB6yzpBY04WymbAxy/view)
 
 ## Contributing
 
